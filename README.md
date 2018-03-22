@@ -5,11 +5,17 @@ This repository is a catch-all for lecture notes, documentation, code, and other
 
 ### Handy Shell Commands
 
-`nvidia-smi # View graphics card usage`
+View graphics card usage:
+`nvidia-smi`
 
-`jupyter notebook password # Set a notebook password to avoid having to copy token link`
+Set a notebook password to avoid having to copy token link:
+`jupyter notebook password`
 
-`wget setup.thedaniel.me -O ./setup.sh && chmod 700 ./setup.sh && ./setup.sh # Quickly download .vimrc, .bashrc, etc`
+Quickly download .vimrc, .bashrc, etc:
+`wget setup.thedaniel.me -O ./setup.sh && chmod 700 ./setup.sh && ./setup.sh`
+
+Create a link from the fastai library to your current directory. Useful for Python imports:
+`sudo ln -s /home/ubuntu/fastai/fastai/ fastai`
 
 ### AWS Boot Script
 
