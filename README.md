@@ -19,7 +19,7 @@ Quickly download .vimrc, .bashrc, etc:
 
 Create a link from the fastai library to your current directory. Useful for Python imports:
 
-`sudo ln -s /home/ubuntu/fastai/fastai/ fastai`
+`sudo ln -s ~/fastai/fastai/ fastai`
 
 ### AWS Boot Script
 
